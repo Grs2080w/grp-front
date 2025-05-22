@@ -1,0 +1,38 @@
+{
+	"theme_color": "#18181b",
+	"background_color": "#FFFFFF",
+	"icons": [
+		{ "purpose": "maskable", "sizes": "512x512", "src": "/icons/logo_white-512.png", "type": "image/png" },
+		{ "purpose": "any", "sizes": "512x512", "src": "/icon512_rounded.png", "type": "image/png" },
+		{ "src": "/icons/logo_white-16.png", "type": "image/png", "sizes": "16x16" },
+		{ "src": "/icons/logo_white-48.png", "type": "image/png", "sizes": "48x48" },
+		{ "src": "/icons/logo_white-64.png", "type": "image/png", "sizes": "64x64" },
+		{ "src": "/icons/logo_white-96.png", "type": "image/png", "sizes": "96x96" },
+		{ "src": "/icons/logo_white-144.png", "type": "image/png", "sizes": "144x144" },
+		{ "src": "/icons/logo_white-180.png", "type": "image/png", "sizes": "180x180" },
+		{ "src": "/icons/logo_white-192.png", "type": "image/png", "sizes": "192x192" },
+		{ "src": "/icons/logo_white-256.png", "type": "image/png", "sizes": "256x256" }
+	],
+	"orientation": "portrait",
+	"display": "standalone",
+	"display_override": ["window-controls-overlay", "standalone", "browser"],
+	"dir": "auto",
+	"lang": "pt-BR",
+	"name": "Grp@Server",
+	"short_name": "Grp@Server",
+	"scope": "/",
+	"start_url": "/",
+	"screenshots": [
+		{
+			"src": "/screenshots/desktop-wide.png",
+			"sizes": "1280x720",
+			"type": "image/png",
+			"form_factor": "wide"
+		},
+		{
+			"src": "/screenshots/mobile-narrow.png",
+			"sizes": "480x640",
+			"type": "image/png"
+		}
+	]
+}

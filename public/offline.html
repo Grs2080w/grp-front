@@ -1,0 +1,95 @@
+<!-- public/offline.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>You are offline</title>
+		<style>
+			:root {
+				--bg-color: #121212;
+				--text-color: #e0e0e0;
+				--accent-color: #4f46e5;
+				--button-bg: #ffffff;
+				--button-text: #000000;
+				--container-bg: rgba(255, 255, 255, 0.05);
+			}
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				background: var(--container-bg);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				font-family: "Segoe UI", Tahoma, sans-serif;
+				background: var(--bg-color);
+				color: var(--text-color);
+			}
+			.container {
+				padding: 2rem;
+				border-radius: 12px;
+				text-align: center;
+				max-width: 450px;
+				width: 90%;
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+			}
+			.logo-placeholder {
+				width: 80px;
+				height: 80px;
+				margin: 0 auto 1.5rem;
+				background: rgba(255, 255, 255, 0.2);
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+			}
+			.logo-placeholder img {
+				max-width: 100%;
+				max-height: 100%;
+			}
+			h1 {
+				font-size: 1.75rem;
+				margin-bottom: 0.75rem;
+				color: var(--accent-color);
+			}
+			p {
+				margin-bottom: 1.25rem;
+				line-height: 1.5;
+				font-weight: bold;
+			}
+			button {
+				padding: 0.75rem 1.5rem;
+				border: none;
+				border-radius: 6px;
+				background: var(--button-bg);
+				color: var(--button-text);
+				font-size: 1rem;
+				cursor: pointer;
+				transition: background 0.2s ease;
+			}
+			button:hover {
+				background: #3730a3;
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<img width="100" height="100" src="/logo_white.svg" alt="Logo" />
+
+			<h1>Ops… Without Conection 😢</h1>
+			<p>Maybe you are offline?</p>
+			<button onclick="location.reload()">Try Reload</button>
+		</div>
+		<script>
+			window.addEventListener("online", () => {
+				location.reload()
+			})
+		</script>
+	</body>
+</html>
