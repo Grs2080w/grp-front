@@ -2,14 +2,14 @@
 
 ![alt text](image-front.png)
 
-> "Your personal server on-the-go, 24/7, user-centric and end-to-end!"
+> "My personal server on-the-go, 24/7, user-centric and end-to-end!"
 > We deliver full access, banking security and real-time details – pay in 12 interest-free installments (metaphorically, of course). 😎
 
 ---
 
 ## 🎯 Overview
 
-**Grp\@Server** is your personal productivity and management hub, accessible from anywhere via browser. With a high-performance **frontend** running on Next.js and full integration with the backend, you can download/upload massive files (up to 10GB), manage tasks, ebooks, passwords (AES), WhatsApp-style chat, rich-text editor, customizable tables and much more. All this in a domain that sticks in your memory: `grp.dev.br`.
+**Grp\@Server** is My personal productivity and management hub, accessible from anywhere via browser. With a high-performance **frontend** running on Next.js and full integration with the backend, is possible download/upload massive files (up to 10GB), manage tasks, ebooks, passwords (AES), WhatsApp-style chat, rich-text editor, customizable tables and much more. All this in a domain that sticks in your memory: `grp.dev.br`.
 
 **Why Grp\@Server?**
 
